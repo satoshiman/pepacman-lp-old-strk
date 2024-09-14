@@ -1,0 +1,14 @@
+.footer-list {
+  font-size: 0.9em;
+  padding: 10px var(--app-margin);
+  font-weight: bold;
+  list-style-type: disc;
+  li {
+    float: left;
+    padding: 0 0 calc(var(--app-margin) / 2 - 9px) 20px;
+    &::before {
+      content: "●";
+      margin-right: 5px;
+    }
+  }
+}

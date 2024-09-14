@@ -1,0 +1,17 @@
+.nft-previewer {
+  max-width: 100%;
+
+  .img-container {
+    width: 100%;
+    &.loading {
+      // background-color: #e7e7e7;
+      padding-top: 100%;
+      background: #000;
+      border-radius: var(--borderRadius);
+    }
+    img {
+      border-radius: var(--borderRadius);
+      max-width: 100%;
+    }
+  }
+}

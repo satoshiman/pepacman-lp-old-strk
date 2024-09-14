@@ -1,0 +1,23 @@
+{
+    "name": "NUMR 11111",
+    "description": "The Unique Number NFTs Collection.",
+    "image": "https://img.numr.io/11111",
+    "attributes": [
+        {
+            "trait_type": "Number",
+            "value": 11111
+        },
+        {
+            "trait_type": "Mint type",
+            "value": "Paid"
+        },
+        {
+            "trait_type": "Power",
+            "value": 10
+        },
+        {
+            "trait_type": "Tier",
+            "value": "Rare"
+        }
+    ]
+}

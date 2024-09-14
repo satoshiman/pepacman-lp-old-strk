@@ -1,0 +1,13 @@
+this project use multisites
+https://firebase.google.com/docs/hosting/multisites
+
+add a hosting to account (multisites)
+> firebase hosting:sites:create numr-testnet
+
+add target to firebaserc
+> firebase target:apply hosting testnet numr-testnet  
+                                | tag       | destination
+
+
+deploy
+> firebase deploy --only hosting:testnet
